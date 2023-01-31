@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smart Mart</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="top-bar">
+            <h1 id="title">Smart Mart</h1>
+            <div class="search-bar">
+                <input type="text" class="search" placeholder="Search">
+                    <button type="submit" class="search-button">
+                        <img src="./search-icon.png" id="search-icon" />
+                    </button>
+                </input>
+            </div>
+            <img src="./user.png" class="dp"/>
+        </div>
+        <div class="items">
+            <div class="sidebar">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="brands"><b>Brands</b></label><br>
+                            <input type="checkbox" id="Symbol" value="Symbol"><label class="input-text">Symbol</label><br>
+                            <input type="checkbox" id="Columbia" value="Columbia"><label class="input-text">Columbia</label><br>
+                            <input type="checkbox" id="Symbol" value="Symbol"><label class="input-text">Tommy Hilfiger</label><br>
+                        </li>
+                        <li>
+                            <label for="discount"><b>Discount</b></label><br>
+                            <select id="discount" name="discount">
+                                <option value="10">10% or more</option>
+                                <option value="20">20% or more</option>
+                                <option value="30">30% or more</option>
+                                <option value="40">40% or more</option>
+                                <option value="50">50% or more</option>
+                                </select>
+                        </li>
+                        <li>
+                            <label for="size"><b>Size</b></label><br>
+                            <input type="radio" id="S" value="S"><label class="input-text">S</label><br>
+                            <input type="radio" id="M" value="M"><label class="input-text">M</label><br>
+                            <input type="radio" id="L" value="L"><label class="input-text">L</label><br>
+                            <input type="radio" id="XL" value="XL"><label class="input-text">XL</label><br>
+                        </li>
+                    </ul>
+                    <input type="submit" value="Submit" id="submit" style="margin-left: 40px;">
+                </form>
+            </div>
+            <div class="main">
+                <table class="products">
+                    <tr>
+                    <td class="prod collapsible">
+                            <a href=""></a>
+                                <img src="./pant.jpg" class="product-pic">
+                                <p>
+                                    <b>Symbol Men's Slim Fit Formal Trousers (Grey)</b><br><br>
+                                    ₹ 705
+                                </p>
+                        </td>
+                        <td class="prod collapsible">
+                            <img src="./t-shirt.jpg" class="product-pic">
+                            <p>
+                                <b>Tommy Hilfiger Men's Loose Polo Shirt (Navy)</b><br><br>
+                                ₹ 968
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prod collapsible">
+                            <center>
+                                <img src="./sweatshirt.jpg" class="product-pic">
+                                <p>
+                                    <b>Columbia Men Sweatshirt (Grey)</b><br><br>
+                                    ₹ 1497
+                                </p>
+                            </center>
+                                    
+                        </td>
+                        <td class="prod collapsible">
+                            <center>
+                                <img src="./women-jacket.jpg" class="product-pic">
+                                <p>
+                                    <b>Columbia Womens Jacket (Blue)</b><br><br>
+                                    ₹ 1244
+                                </p>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <center>
+            <video controls="controls">
+                <source src="./product-ad.mp4" />
+            </video>
+            <div class="user-interface">
+                <p>Material - Cotton</p>
+                <p>Full sleeve, Collar style - Classic collar; Cuff style - Single cuff</p>
+                <p>Pattern - Printed Men’s Formal Shirt</p>
+                <p>Double yoke for extra durability & stiffness; Patch pocket at chest</p>
+                <p>Made in India</p>   
+                <p>To resize: Click and drag the bottom right corner of this div element.</p>
+            </div>
+        </center>
+        <div class="multiple-column">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+        </div>
+    </body>
+</html>
